@@ -1,5 +1,7 @@
 # Forge Library Desk Bridge
 
+[![tests](https://github.com/gariyou/sd-forge-library-desk-bridge/actions/workflows/tests.yml/badge.svg)](https://github.com/gariyou/sd-forge-library-desk-bridge/actions/workflows/tests.yml)
+
 Save and restore per-checkpoint txt2img settings between Forge Neo and [LoRA Library Desk](https://github.com/gariyou/lora-library-desk).
 
 **Windows / Forge Neo向け試用版 / 0.1.0-alpha.1 / MIT**
@@ -45,3 +47,9 @@ Forge Neo 2.29.2 / Gradio 4.40.0でボタン配置と設定往復を検証して
 MITはこの拡張のコードに適用します。Forge本体は外部のAGPL-3.0プロジェクトです。Forge本体のコード・ライセンスを置き換えたり同梱したりしません。[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)も参照してください。
 
 検証内容と限界：[VALIDATION.md](VALIDATION.md)
+
+## 開発
+
+Forge・Gradioなしで動く部分のテスト：`python -m unittest discover -s tests -p "test_*.py"`（push・Pull RequestごとにGitHub Actionsで実行）
+
+コードの写しは[LoRA Library Desk](https://github.com/gariyou/lora-library-desk)の`forge_bridge/`にも同梱しています。正本はこのリポジトリで、Library Desk側のCIが同一内容かを検査します。変更はこちらを先にマージしてください。
