@@ -6,4 +6,4 @@ Windows / Forge Neo 2.29.2 / Gradio 4.40.0でGenerate下への配置、受信・
 
 他のForge派生・A1111・macOS/Linuxは未確認です。画像生成そのものは試験で開始しません。
 
-Library Deskの公開版については、137件のPythonテスト、21件のNodeテスト、初回の空環境からの起動と接続先の実画面変更・永続化を確認しています。
+Library Deskの公開版については、139件のPythonテスト、21件のNodeテスト、初回の空環境からの起動と接続先の実画面変更・永続化を確認しています。
