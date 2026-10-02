@@ -4,7 +4,7 @@
 
 Save and restore per-checkpoint txt2img settings between Forge Neo and [LoRA Library Desk](https://github.com/gariyou/lora-library-desk).
 
-**Windows / Forge Neo向け試用版 / 0.1.0-alpha.1 / MIT**
+**Windows / Forge Neo向け試用版 / 0.1.0-alpha.2 / MIT**
 
 Generate下（スタイル選択欄の下）へ3つの連携ボタンを追加します。
 
